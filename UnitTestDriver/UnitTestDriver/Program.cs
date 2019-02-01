@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace UnitTestDriver
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("added nuget packages through Nexus...");
         }
     }
 }
