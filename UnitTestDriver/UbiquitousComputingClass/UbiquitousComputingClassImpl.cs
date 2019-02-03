@@ -8,9 +8,6 @@ namespace UbiquitousComputingClass
 {
     public class UbiquitousComputingClassImpl
     {
-        public UbiquitousComputingClassImpl()
-        {
-            Console.WriteLine("constructing UbiquitousComputingClassImpl...");
-        }
+        public UbiquitousComputingClassImpl() => Console.WriteLine("constructing UbiquitousComputingClassImpl...");
     }
 }
