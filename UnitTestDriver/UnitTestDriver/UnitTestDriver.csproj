@@ -38,8 +38,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="CallScripter.Database, Version=4.5.19.3324, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CallScripter.1.0.0.13902\lib\CallScripter\CallScripter.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Callscripter.Genesys, Version=4.5.19.3324, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CallScripter.1.0.0.13902\lib\CallScripter\Callscripter.Genesys.dll</HintPath>
+    </Reference>
+    <Reference Include="CallScripter.Genesys.IWModule, Version=1.0.0.13902, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CallScripter.1.0.0.13902\lib\CallScripter\CallScripter.Genesys.IWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="CallScripter.Global, Version=4.5.19.3324, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CallScripter.1.0.0.13902\lib\CallScripter\CallScripter.Global.dll</HintPath>
+    </Reference>
+    <Reference Include="CallScripter.Security, Version=4.5.19.3324, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CallScripter.1.0.0.13902\lib\CallScripter\CallScripter.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\CallScripter.1.0.0.13902\lib\CallScripter\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework, Version=3.11.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
